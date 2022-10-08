@@ -71,6 +71,7 @@ header{
   width: ;
   max-width: 600px;
   min-width: 300px;
+  border: none;
 }
 video{
   width: 90%;

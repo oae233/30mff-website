@@ -5,7 +5,7 @@ console.log("hello AGAIN!");
 const frameCount = 93;
 // const rgbval;
 const currentFrame = index => (
-  `grass_anis/${index.toString().padStart(4, '0')}.jpg`
+  `${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {
