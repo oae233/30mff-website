@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>M</title>
+    <title>OM</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -10,22 +10,30 @@
     <canvas id="scenery"></canvas>
     <script src="myscript.js"></script>
 
-    <!-- all of the html goes here -->
+    <!-- Header -->
     <header>
         <h1>30MFF PROJECT<a class="myname">OMAR ELGAMAL</a> </h1>
     </header>
-    <div class="LHmenu">
+
+    <!--Navigation Links -->
+    <div class="Menu">
       <nav>
       <a href="./index.html" class="index">OM</a>
       <a href="./about.html" class="button"> About </a>
       <a href="./contact.html" class="button"> Contact </a>
-      <a class="button"> Share </a>
-      <!-- <button onclick="myFunction()">Copy text</button> -->
+      <a href="./share.html" class="button"> Share </a>
       </nav>
     </div>
-    <div id="mainvid" class="MAINVID">
-      <video  src="https://drive.google.com/file/d/1DYT3jb2S3M3uhbs0X1VFPrBp4K24tVlD/preview" width="640" height="480" allow="autoplay" type="video/mp4" controls poster="controls">
-      <!-- <iframe src="https://drive.google.com/file/d/1DYT3jb2S3M3uhbs0X1VFPrBp4K24tVlD/preview" width="640" height="480" allow="autoplay"></iframe> -->
+
+    <!-- This is the hook that catches the users attention to get them exploring -->
+    <div class="hook-container">
+      <h1 id="hook"class="hook">Looking4Mother</h1>
+    </div>
+
+    <!-- Embedded video -->
+    <div id="myvideo" class="myvideo">
+      <iframe width="500" height="500" src="https://www.youtube.com/embed/bDeUUTa2PwU" title="OM:Looking4Mother" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </object>
       </video>
     </div>
   </body>
