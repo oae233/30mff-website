@@ -33,7 +33,7 @@ body {
 /* subpages have no need to be as long as main page so height property is over-written */
 .subpage{
     background-color: black;
-    height: 70vh;
+    max-height: 50vh;
     color:white;
 }
 
